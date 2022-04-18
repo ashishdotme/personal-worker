@@ -7,8 +7,7 @@ WORKDIR /home/node
 
 COPY . /home/node
 
-RUN npm install \
-  && npm run build
+RUN npm install && npm run build
 
 # ---
 
