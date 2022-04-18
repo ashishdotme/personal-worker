@@ -13,7 +13,6 @@ import { TaskModule } from './task/task.module';
     ConfigModule.forRoot({
       load: [appConfig],
     }),
-    AuthModule,
     SqsModule,
     TaskModule,
   ],

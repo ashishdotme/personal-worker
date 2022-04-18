@@ -11,10 +11,4 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
-
-  @UseGuards(AuthGuard())
-  @Get('protected')
-  getProtected(): string {
-    return 'This route is protected.';
-  }
 }
